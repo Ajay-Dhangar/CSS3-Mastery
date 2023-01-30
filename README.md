@@ -15,7 +15,7 @@ Happy Learning!
 <details id=1 open>
 <summary><h2>Section 1: Introduction & Environment Setup </h2></summary>
 
-<h3> What is CSS3 </h3>
+<h3> What is CSS </h3>
 
 - CSS stands for Cascading Style Sheets.
 - CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
