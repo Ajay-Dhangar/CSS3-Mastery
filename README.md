@@ -26,10 +26,25 @@ Happy Learning!
 <h3>Why Use CSS?</h3>
 <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
 
+## Environment Setup 
+
+1. Download VS-Code [visualstudio.com](https://code.visualstudio.com/download)
+
+2. Now, open vs code and install some extensions 
+   - [X] Live Server
+   <br/>
+   <img src="https://user-images.githubusercontent.com/99037494/215412999-8108144f-7d26-4df5-a017-f65d9859aa7e.png?r=3r9" width="500" height="250" align="center" alt="Ajay Dhangar"/><br /> <hr/.
+  
+    - [X] Prettier - Code formatter <br />
+    <img src="https://user-images.githubusercontent.com/99037494/215414513-6a7ee1ff-262d-4788-81c6-5ba1e17e6262.png?r=3r9" width="500" height="250" align="center" alt="Ajay Dhangar's Dev Card"/><br />
+
+
+
 </details>
 
 <details id=2>
 <summary><h2>Section 2: Basics of HTML & CSS</h2></summary>
+
 
 </details>
 
