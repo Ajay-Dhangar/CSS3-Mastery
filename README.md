@@ -45,6 +45,33 @@ Happy Learning!
 <details id=2>
 <summary><h2>Section 2: Basics of HTML & CSS</h2></summary>
 
+Now, Create a new file
+`index.html ` 
+in vs code and press key ` ! ` OR ` shift ` + ` 1 ` key then press ` Enter ` Because it is html boilerplate code shortcut key in  vscode. Otherwise write this Code.
+
+`index.html`
+
+``` HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML & CSS</title>
+</head>
+<body>
+    <h1>Basics of HTML & CSS</h1>
+</body>
+</html>
+```
+<br />
+
+`Output`
+
+<br />
+
+![image](https://user-images.githubusercontent.com/99037494/215420445-71a3f3c6-cf28-4093-8bbd-438d79ce1525.png)
 
 </details>
 
