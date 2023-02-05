@@ -8,8 +8,12 @@ I am super excited to have you in this Course, let's learn and grow together.
 
 I have 2 Year and 6 months of experience working in CSS3. I have put all my experience into this Course to make a successful in 2023.
 
-Check my [LinkedIn Profile](https://www.linkedin.com/in/ajay-dhangar-bb89b4227/)
+👇 Connect With me 
 
+<a href="https://linkedin.com/in/ajay-dhangar-bb89b4227/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<br/>
 Happy Learning!
 
 <details id=1 open>
