@@ -199,12 +199,74 @@ span {
 <details id=3>
 <summary><h2>Section 3: Font, Color, Background, Float</h2></summary>
 
-   ## Selectors in CSS
+## 1. Selectors in CSS
    
-   **4 types of selector in css**
+ **4 types of selector in CSS**
    
-   - CSS element selector 
-   - CSS 
+ - CSS element selector 
+ - CSS id selector
+ - CSS Class selector
+ - The CSS grouping selector
+   
+**For Example :**
+   
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML & CSS</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Getting Started CSS with <span>Aj Zero Coding</span></h1>
+    <p>This is paragraph one</p>
+    <p id="pera">This is paragraph two</p>
+    <p class="pera">This is paragraph three</p>
+</body>
+</html>
+```
+   
+`style.css`
+```css
+h1 {
+  color: blue;
+}
+span {
+  color: green;
+}
+/* === CSS element selector === */
+p {
+  color: red;
+  font-size: 20px;
+}
+/* === CSS id selector === */
+#pera {
+  color: #fff;
+  background-color: cadetblue;
+  font-size: 22px;
+}
+/* === CSS class selector === */
+.pera {
+  color: #f8f81a;
+  background-color: orangered;
+  font-size: 22px;
+}
+/* === The CSS grouping selector === */
+h1,
+p {
+  text-align: center;
+}
+```
+
+### Output:
+
+![Selectors](https://user-images.githubusercontent.com/99037494/216819382-f1f72e7b-a6d0-4d14-b610-3a18a9ad1cad.png)
+
    
 
 </details>
