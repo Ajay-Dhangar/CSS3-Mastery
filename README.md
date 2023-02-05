@@ -267,7 +267,22 @@ p {
 
 ![Selectors](https://user-images.githubusercontent.com/99037494/216819382-f1f72e7b-a6d0-4d14-b610-3a18a9ad1cad.png)
 
-   
+## 2. Debugging using developer tool
+
+https://user-images.githubusercontent.com/99037494/216828031-8ae82ebb-5b78-44f3-a44b-467d9ca75ad9.mp4
+
+
+## 3. Font in CSS
+
+
+
+## 4. Color in CSS
+
+## 5. Border, Background, Height, Width
+
+## 6. BoxModel margin, padding
+
+## 7. Float clear
 
 </details>
 
