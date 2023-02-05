@@ -13,7 +13,9 @@ I have 2 Year and 6 months of experience working in CSS3. I have put all my expe
 <a href="https://linkedin.com/in/ajay-dhangar-bb89b4227/" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
-<br/>
+
+<br />
+
 Happy Learning!
 
 <details id=1 open>
@@ -197,6 +199,13 @@ span {
 <details id=3>
 <summary><h2>Section 3: Font, Color, Background, Float</h2></summary>
 
+   ## Selectors in CSS
+   
+   **4 types of selector in css**
+   
+   - CSS element selector 
+   - CSS 
+   
 
 </details>
 
