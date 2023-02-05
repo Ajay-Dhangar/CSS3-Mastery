@@ -55,7 +55,7 @@ Now, Create a new file
 
 ### your first `HTML` and `HTML` Structure.
 
-`index.html ` 
+First create `index.html ` file
 in vs code and press key ` ! ` OR ` shift ` + ` 1 ` key then press ` Enter ` Because it is html boilerplate code shortcut key in  vscode. Otherwise write this Code.
 
 `index.html`
