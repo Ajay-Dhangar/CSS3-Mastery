@@ -12,7 +12,7 @@ Check my [LinkedIn Profile](https://www.linkedin.com/in/ajay-dhangar-bb89b4227/)
 
 Happy Learning!
 
-<details id=1 >
+<details id=1 open>
 <summary><h2>Section 1: Introduction & Environment Setup </h2></summary>
 
 <h3> What is CSS </h3>
@@ -105,9 +105,9 @@ p {
  - **Internal** - by using a `<style>` element in the `<head>` section
  - **External** - by using a `<link>` element to link to an external `CSS` file
  
-***for Example:***
+***for Example:*** create `index.html` file and write this cade and view output.
 
-**Inline :** create `index.html` file and write this cade and view output.
+### Inline :
 
 ```html
 <!DOCTYPE html>
@@ -123,13 +123,69 @@ p {
 </body>
 </html>
 ```
-**Output :**
+
+### Internal :
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML & CSS</title>
+    <style>
+        h1{
+            color:blue;
+        }
+        span{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Getting Started CSS with <span>Aj Zero Coding</span></h1>
+</body>
+</html>
+```
+
+### External :
+
+you need two files: `index.html` and `style.css`.
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML & CSS</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Getting Started CSS with <span>Aj Zero Coding</span></h1>
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+h1 {
+  color: blue;
+}
+span {
+  color: green;
+}
+
+```
+
+### Output :
 
 ![image](https://user-images.githubusercontent.com/99037494/216768238-3249d0c6-50ca-48d5-b413-e6072d6d9c12.png)
-
-
-**Internal**
-**External**
 
 </details>
 
