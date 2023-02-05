@@ -274,7 +274,203 @@ https://user-images.githubusercontent.com/99037494/216828031-8ae82ebb-5b78-44f3-
 
 ## 3. Font in CSS
 
+### font-family :
+ In CSS there are five generic font families:
 
+ - `Serif` fonts have a small stroke at the edges of each letter.
+ - `Sans-serif` fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+ - `Monospace` fonts - here all the letters have the same fixed width. They create a mechanical look. 
+ - `Cursive` fonts imitate human handwriting.
+ - `Fantasy` fonts are decorative/playful fonts.
+ 
+ ![image](https://user-images.githubusercontent.com/99037494/216831443-fc6c0ed7-936e-440b-92bb-66d15992406e.png)
+
+### Font Style :
+
+ - `normal` - The text is shown normally
+ - `italic` - The text is shown in italics
+ - `oblique` - The text is "leaning" (oblique is very similar to italic, but less supported)
+ 
+ ![image](https://user-images.githubusercontent.com/99037494/216831850-586c4c07-2ebd-4d06-a140-d3f4ba8cd268.png)
+
+### Font Weight :
+
+- 100 to 900
+- bold
+- normal 
+
+![image](https://user-images.githubusercontent.com/99037494/216832164-55b8bb83-318c-45dc-ae5e-d864f4eb1f8a.png)
+ 
+### Font Variant :
+
+- normal 
+- small-caps 
+ 
+![image](https://user-images.githubusercontent.com/99037494/216832395-c4db70c1-baeb-4d48-9c3a-bb5218111a85.png)
+
+### Font Size :
+
+- Set Font Size With Pixels
+- Set Font Size With Em
+- Set Font Size With Percent
+- Set Font Size With vw
+
+![image](https://user-images.githubusercontent.com/99037494/216832907-c4b6b099-071a-4732-8bbb-6d1c7fc0fddc.png)
+
+### Google Fonts :
+
+- you need a google fonts link. for example
+
+`<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">`
+
+```css
+font-family: "Sofia", sans-serif;
+font-size: 30px;
+text-shadow: 3px 3px 3px #ababab;
+```
+
+![image](https://user-images.githubusercontent.com/99037494/216833591-6a88f00f-6fe2-48a8-814b-1e3f32f3bea9.png)
+
+More examples of google fonts
+
+![image](https://user-images.githubusercontent.com/99037494/216833639-6142a17a-564d-422b-b621-450ddda59c93.png)
+
+**For Example :**
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font in CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h3>font-family :</h3>
+    <ul>
+        <li class="Serif">Serif</li>
+        <li class="Sans-serif">Sans-serif</li>
+        <li class="Monospace">Monospace</li>
+        <li class="Cursive">Cursive</li>
+        <li class="Fantasy">Fantasy</li>
+    </ul> 
+    
+    <hr />
+
+    <h3>Font Style :</h3>
+    <ul>
+        <li id="normal">normal</li>
+        <li class="italic">italic</li>
+        <li class="oblique">oblique</li>
+    </ul> 
+
+    <hr />
+
+    <h3>Font Weight :</h3>
+    <ul>
+        <li class="normal">normal</li>
+        <li class="bold">Bold</li>        
+    </ul>
+
+    <hr />
+
+    <h3>Font Variant :</h3>
+    <ul>
+        <li class="normal-v">normal</li>
+        <li class="small">small-caps</li>        
+    </ul>
+    <hr />
+
+    <h3>Font size :</h3>
+    <ul>
+        <li class="Pixels">Pixels</li>
+        <li class="Em">Em</li> 
+        <li class="Percent">Percent</li>
+        <li class="vw">vw</li>        
+    </ul>
+
+    <hr />
+    <h3>Google Fonts :</h3>
+    <ul class="google-fonts">
+        <li class="name">Ajay Dhangar</li>
+        <li class="author">Author of CSS-3 Mastery</li> 
+        <li class="number">123456790</li>
+    </ul>
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+.Serif {
+  font-family: serif;
+}
+.Sans-serif {
+  font-family: sans-serif;
+}
+.Monospace {
+  font-family: monospace;
+}
+.Cursive {
+  font-family: cursive;
+}
+.Fantasy {
+  font-family: fantasy;
+}
+#normal {
+  font-style: normal;
+}
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
+.normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.normal-v {
+  font-variant: normal;
+}
+.small {
+  font-variant: small-caps;
+}
+.Pixels {
+  font-size: 10px;
+}
+.Em {
+  font-size: 1em;
+}
+.Percent {
+  font-size: 10%;
+}
+.vw {
+  font-size: 10vm;
+}
+.google-fonts {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.name {
+  font-size: 1.5em;
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/216834023-0fe028d0-fe9e-4bbb-8940-a08bbda6c672.png)
+
+![image](https://user-images.githubusercontent.com/99037494/216834062-bf67bb6c-de3c-4335-9a0b-f8f93979dc97.png)
 
 ## 4. Color in CSS
 
