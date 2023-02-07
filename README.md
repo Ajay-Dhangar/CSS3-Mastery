@@ -642,7 +642,7 @@ d. for double border line
 
 ```css
 border: 2px double red;
-``
+```
 
 e. for hidden border line
 
