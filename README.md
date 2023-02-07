@@ -703,6 +703,44 @@ p {
 ![image](https://user-images.githubusercontent.com/99037494/217194286-19822b19-bf3e-4ef6-844f-322f705aee72.png)
 
 
+### border-radius
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Border-radius Property in CSS</h1>
+   
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+h1 {
+  border-radius: 20px;
+  background-color: lightgrey;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/217274032-b90546f5-76dd-41a3-a537-606c33eeac2f.png)
+
+
 ### (ii) Background
 
 Basic properties of css background 
