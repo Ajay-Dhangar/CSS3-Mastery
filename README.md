@@ -317,6 +317,28 @@ https://user-images.githubusercontent.com/99037494/216828031-8ae82ebb-5b78-44f3-
 
 ![image](https://user-images.githubusercontent.com/99037494/216832907-c4b6b099-071a-4732-8bbb-6d1c7fc0fddc.png)
 
+**Relative Units**
+
+**EM:** Relative to the parent element
+
+**REM:** Relative to the root element (HTML tag)
+
+**%:** Relative to the parent element
+
+**VW:** Relative to the viewport’s width
+
+**VH:** Relative to the viewport’s height
+
+**Difference VW, %, and px mobile screen viewport that is `480px` x `800px` For `width`.**
+
+- 1 VW = 1% = 4.8px
+- 50 VW = 50% = 240px
+
+**Difference Vh, %, and px mobile screen viewport that is `480px` x `800px` For `height`.**
+
+- 1 Vh = 1% = 8px
+- 50 Vh = 50% = 400px
+
 ### Google Fonts :
 
 - you need a google fonts link. for example
@@ -474,7 +496,47 @@ More examples of google fonts
 
 ## 4. Color in CSS
 
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color Property in CSS</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+   <h1 id="one">Heading-1</h1> 
+   <h1 id="two">Heading-2</h1> 
+   <h1 id="three">Heading-3</h1> 
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+#one {
+  color: red; /* Basic write any color name*/
+}
+#two {
+  color: rgb(103, 93, 188); /* rgb = red, green, blue (Range of this 0-255)*/
+}
+#three {
+  color: #50f111; /* Hex-color Code use 6 digit with the help of # symbol */
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/217153610-30762d9b-1208-48ee-a268-af262324d695.png)
+
 ## 5. Border, Background, Height, Width
+
+
 
 ## 6. BoxModel margin, padding
 
