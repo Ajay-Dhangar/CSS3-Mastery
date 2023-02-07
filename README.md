@@ -536,9 +536,226 @@ More examples of google fonts
 
 ## 5. Border, Background, Height, Width
 
+`index.html`
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Background-Height-Width</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Border, Background, Height, Width</h1>
+   <p id="one">Heading-1</p> 
+   <p id="two">Heading-2</p> 
+   <p id="three">Heading-3</p> 
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+/* Basic write any color name*/
+#one {
+  color: white;
+  background-color: orange;
+}
+/* rgb = red, green, blue (Range of this 0-255)*/
+#two {
+  color: rgb(255, 255, 255);
+  background-color: rgb(93, 188, 114);
+}
+/* Hex-color Code use 6 digit with the help of # symbol */
+#three {
+  color: #ffffff;
+  background-color: #8d7cc5;
+}
+p {
+  border: 1px solid black;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/217184992-92383476-34c0-4cc5-9d0a-e4b31319c49b.png)
+
+### (i) Border
+
+you can create `index.html` file and `style.css` file.
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Border Property in CSS</h1>
+   <p id="solid">Solid</p> 
+   <p id="dashed">Dashed</p>
+   <p id="dotted">Dotted</p>
+   <p id="double">Double</p>
+   <p id="outset">Outset</p>
+   <p id="ridge">Ridge</p>
+   
+</body>
+</html>
+```
+
+Now, apply `border` property in `style.css` file.
+
+a. for solid border line
+
+```css
+border: 2px solid red;
+```
+
+b. for dashed border line
+
+```css
+border: 2px dashed red;
+```
+
+c. for dotted border line
+
+```css
+border: 2px dotted red;
+```
+
+d. for double border line
+
+```css
+border: 2px double red;
+``
+
+e. for hidden border line
+
+```css
+border: 2px hidden red;
+```
+
+f. for outset border line
+
+```css
+border: 2px outset red;
+```
+
+g. for ridge border line
+
+```css
+border: 2px ridge red;
+```
+
+`style.css`
+
+```css
+p {
+  width: 400px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+#solid {
+  border: 2px solid red;
+}
+
+#dashed {
+  border: 2px dashed red;
+}
+#solid {
+  border: 2px solid red;
+}
+#dotted {
+  border: 2px dotted red;
+}
+#double {
+  border: 2px double red;
+}
+#outset {
+  border: 2px outset red;
+}
+
+#ridge {
+  border: 2px ridge red;
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/217194286-19822b19-bf3e-4ef6-844f-322f705aee72.png)
+
+
+### (ii) Background
+
+Basic properties of css background 
+
+- background-color
+- background-image
+- background-position
+- background-repeat
+- background-size
+- background-attachment
+- backdrop-filter
+- background-clip
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <h1>Background Property in CSS</h1>
+    
+</body>
+</html>
+```
+
+`style.css`
+
+```css
+body {
+  background-image: url(./img.png);
+}
+h1 {
+  background-color: chartreuse;
+  text-align: center;
+
+  height: 50px;
+}
+```
+
+**Output :**
+
+![image](https://user-images.githubusercontent.com/99037494/217198999-efffb4de-5bd9-4629-8e28-7ff3e074d89e.png)
 
 ## 6. BoxModel margin, padding
+
+
 
 ## 7. Float clear
 
